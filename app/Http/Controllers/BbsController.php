@@ -30,6 +30,28 @@ class BbsController
         $list = new Display();
         $list->list_page();
         return view('list', ['listurl' => 'http://localhost:8080/list']);
+
+        $config = new Config();
+        echo '<html>
+                    <head>
+                      <meta charset="utf-8">
+                      <title>一覧</title>
+                    </head>
+                    <body>';
+        $list = glob($config -> get_file_directory() . '*.txt');
+        $new_list = [];
+        if (array_key_exists('search_title', $_POST) && $_POST['search_title'] != '') {
+            foreach ($list as $value){
+                //$valueにserch_titleがあるかどうか比較
+                if (strpos($value , $_POST['search_title']) !== false){
+                    //$new_listに検索条件と一致した項目を入れる
+                    $new_list[] = $value;
+                }
+            }
+        }else{
+            $new_list = $list;
+        }
+        $list = $new_list;
     }
 
     public function contents()
