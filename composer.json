@@ -33,7 +33,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Bbs\\": "bbs/"
+            "Bbs\\": "bbs2/"
         },
         "classmap": [
             "database/seeds",
