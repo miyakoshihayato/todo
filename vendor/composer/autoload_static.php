@@ -383,7 +383,7 @@ class ComposerStaticInit5af289a3a98cf992ecc049f64e917058
         ),
         'Bbs\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/bbs',
+            0 => __DIR__ . '/../..' . '/bbs2',
         ),
         'App\\' => 
         array (
@@ -421,7 +421,7 @@ class ComposerStaticInit5af289a3a98cf992ecc049f64e917058
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
-        'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\BbsController' => __DIR__ . '/../..' . '/app/Http/Controllers/BbsController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -436,8 +436,11 @@ class ComposerStaticInit5af289a3a98cf992ecc049f64e917058
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-        'Bbs\\Config\\Config' => __DIR__ . '/../..' . '/bbs/Config/Config.php',
-        'Bbs\\Input' => __DIR__ . '/../..' . '/bbs/Input.php',
+        'Bbs\\Config\\Config' => __DIR__ . '/../..' . '/bbs2/Config/Config.php',
+        'Bbs\\Delete' => __DIR__ . '/../..' . '/bbs2/Delete.php',
+        'Bbs\\Display' => __DIR__ . '/../..' . '/bbs2/Display.php',
+        'Bbs\\Input' => __DIR__ . '/../..' . '/bbs2/Input.php',
+        'Bbs\\Login' => __DIR__ . '/../..' . '/bbs2/Login.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
