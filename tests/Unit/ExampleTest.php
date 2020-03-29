@@ -13,6 +13,7 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $this->assertTrue(true);
+        $config = new \Bbs\Config\Config();
+        $this->assertEquals('/Users/miyakoshihayato/Desktop/workspace3/todo/bbs/text/', $config->get_file_directory());
     }
 }
